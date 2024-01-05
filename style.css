@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Kenia';
+    src: url('fonts/Kenia-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'IstokWeb';
+    src: url('fonts/IstokWeb-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'LibreBarcode';
+    src: url('fonts/LibreBarcode128Text-Regular.ttf') format('truetype');
+}
+
+#homeBigText {
+    color: #FFF;
+    font-family: 'Kenia';
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 115px;
+    margin-bottom: 155px;
+    margin-top: 50px;
+}
+
+#homeLogo {
+    color: #FFF;
+    font-family: 'LibreBarcode';
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 122px;
+    margin-right: 365px;
+}
+
+#homeText {
+    color: #FFF;
+    font-family: 'IstokWeb';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 122px;
+}
+
+.homeHeader {
+    display: flex;
+    align-items: center;
+    margin-top: -70px;
+}
+
+nav a {
+    color: #FFF;
+    font-family: 'IstokWeb';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    margin-right: 100px;
+}
+
+
+body {
+    background-image: url('img/back.jpg');
+}
+
+
+.mainContainer {
+    flex-direction: column; /* Разместить элементы вертикально */
+}
+
+.imagesContainer {
+    display: flex;
+    flex-direction: column; /* Расположить картинки вертикально */
+    align-items: flex-end; /* Выровнять их по правому краю */
+    margin-top: -750px; /* Отступ сверху */
+    padding-right: 40px; /* Отступ справа */
+    padding: auto;
+}
+
+.imagesContainer img {
+    max-width: 100%;
+}
